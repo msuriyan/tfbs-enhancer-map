@@ -32,7 +32,7 @@ Enhancer  EnhStart  EnhEnd   TF_motif  SiteStart  SiteEnd  Strand
 enhA      1000001   1000800  bicoid    1000120    1000125  +
 ```
 
-Site positions can be **genomic** (converted to CRE-relative automatically) or **relative to the CRE start**. Both 1-based inclusive (JASPAR/FIMO/TRANSFAC) and 0-based half-open (BED) coordinates are supported.
+Site positions can be **genomic** (converted to CRE-relative automatically) or **relative to the CRE start**. Both 1-based inclusive (JASPAR/FIMO) and 0-based half-open (BED) coordinates are supported.
 
 Example input files are in [`example/`](example/). They are **dummy data**: invented CREs with random sequence and illustrative consensus motifs planted at the listed sites.
 
@@ -40,7 +40,7 @@ Example input files are in [`example/`](example/). They are **dummy data**: inve
 
 **Views**
 - **Map view.** CREs are drawn to scale, with + strand sites above the line and − strand sites below. Overlapping sites stack automatically.
-- **Sequence view** (TRANSFAC Match-style). Site letters are coloured and uppercase, with bars above or below for each strand.
+- **Sequence view**  Site letters are coloured and uppercase, with bars above or below for each strand.
 
 **Filtering & selection**
 - Show/hide individual TFs and CREs, reorder CREs, and flip (reverse-complement) any CRE.
