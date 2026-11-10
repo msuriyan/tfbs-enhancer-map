@@ -1,6 +1,6 @@
 # TFBS Enhancer Map
 
-A single-file, browser-based tool for drawing **publication-ready maps of predicted transcription-factor binding sites (TFBS) on cis-regulatory elements (CREs / enhancers)**. It keeps strand orientation (TRANSFAC Match-style) and visualizes the output of JASPAR, FIMO or any other TFBS scanner.
+A single-file, browser-based tool for drawing **publication-ready maps of predicted transcription-factor binding sites (TFBS) on cis-regulatory elements (CREs / enhancers)**. It keeps strand orientation and visualizes the output of JASPAR, FIMO or any other TFBS scanner.
 
 Everything runs locally in your browser. Nothing is uploaded, and no installation or internet connection is needed.
 
